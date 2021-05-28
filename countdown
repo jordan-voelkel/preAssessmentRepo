@@ -25,3 +25,14 @@ function update() {
   document.form1.seconds.value = seconds;
   ID = window.setTimeout("update();", 1000);
 }
+
+<p><font face="Arial" size="3">Countdown To January 31, 2000, at 12:00: </font>
+</p>
+<form name="form1">
+  <p>Days
+    <input type="text" name="days" value="0" size="3">Hours
+    <input type="text" name="hours" value="0" size="4">Minutes
+    <input type="text" name="minutes" value="0" size="7">Seconds
+    <input type="text" name="seconds" value="0" size="7">
+  </p>
+</form>
